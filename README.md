@@ -1,4 +1,2 @@
 # text-editor
-• Napíšte terminálový textový procesor v
-jazyku C, ktorý bude načítavať,
-spracovávať a vypisovať riadky textu
+Terminálový textový procesor v jazyku C, ktorý načítava, spracováva a vypisuje riadky textu.
