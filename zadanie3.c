@@ -142,7 +142,9 @@ int main(int argc, char *argv[])
     int neviem = 0;
     int opt;
     char* optstring = ":dpulr:R:";
-
+    
+    
+    //zisti ktory spinac je zapnuty a zmeni hodnotu premenny zapnuteho spinaca na 1
     while ((opt = getopt(argc, argv, optstring)) != -1) {
         switch (opt) {
             case 'd':
@@ -173,7 +175,7 @@ int main(int argc, char *argv[])
         }
     }
 
-
+    //podla toho ktory je zapnuty vykona sa editovanie textu 
     while (*(fgets(ming, MAX, stdin)) != '\n'){
         if(d==1 && p==1){
 
